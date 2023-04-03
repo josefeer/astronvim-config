@@ -7,6 +7,13 @@ return {
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
+    clipboard = "unnamedplus", -- allows neovim to access the system clipboard
+    cmdheight = 2, -- more space in the neovim command line for displaying messagesethod = "manual"
+    showmode = true, -- we don't need to see things like -- insert -- anymore (i do lol)
+    smartcase = true, -- smart case
+    cursorline = true, -- highlight the current line
+    splitbelow = true,
+    splitright = true,
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
