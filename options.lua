@@ -14,6 +14,7 @@ return {
     cursorline = true, -- highlight the current line
     splitbelow = true,
     splitright = true,
+    undofile = true, -- enable persistent undo
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
