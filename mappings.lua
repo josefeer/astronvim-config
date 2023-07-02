@@ -20,6 +20,8 @@ return {
     ["<leader>T"] = { name = "Tabs" },
     ["<leader>Tn"] = { "<cmd>tabnew<cr>", desc = "New tab" },
     ["<leader>Tc"] = { "<cmd>tabclose<cr>", desc = "Close tab" },
+    ["<leader>Q"] = { "<cmd>qa!<cr>", desc = "Quit All" },
+    ["<leader>fR"] = { "<cmd>Telescope resume<cr>", desc = "Resume last search" },
     ["<S-l>"] = { function() require("astronvim.utils.buffer").nav(vim.v.count > 0 and vim.v.count or 1) end, desc =
     "Next buffer" },
     ["<S-h>"] = { function() require("astronvim.utils.buffer").nav(-(vim.v.count > 0 and vim.v.count or 1)) end, desc =
