@@ -1,27 +1,27 @@
 return {
   -- customize alpha options
-  {
-    "goolord/alpha-nvim",
-    opts = function(_, opts)
-      -- customize the dashboard header
-      opts.section.header.val = {
-        " █████  ███████ ████████ ██████   ██████",
-        "██   ██ ██         ██    ██   ██ ██    ██",
-        "███████ ███████    ██    ██████  ██    ██",
-        "██   ██      ██    ██    ██   ██ ██    ██",
-        "██   ██ ███████    ██    ██   ██  ██████",
-        " ",
-        "    ███    ██ ██    ██ ██ ███    ███",
-        "    ████   ██ ██    ██ ██ ████  ████",
-        "    ██ ██  ██ ██    ██ ██ ██ ████ ██",
-        "    ██  ██ ██  ██  ██  ██ ██  ██  ██",
-        "    ██   ████   ████   ██ ██      ██",
-        " ",
-        "          Welcome Back, Jose        ",
-      }
-      return opts
-    end,
-  },
+  -- {
+  --   "goolord/alpha-nvim",
+  --   opts = function(_, opts)
+  --     -- customize the dashboard header
+  --     opts.section.header.val = {
+  --       " █████  ███████ ████████ ██████   ██████",
+  --       "██   ██ ██         ██    ██   ██ ██    ██",
+  --       "███████ ███████    ██    ██████  ██    ██",
+  --       "██   ██      ██    ██    ██   ██ ██    ██",
+  --       "██   ██ ███████    ██    ██   ██  ██████",
+  --       " ",
+  --       "    ███    ██ ██    ██ ██ ███    ███",
+  --       "    ████   ██ ██    ██ ██ ████  ████",
+  --       "    ██ ██  ██ ██    ██ ██ ██ ████ ██",
+  --       "    ██  ██ ██  ██  ██  ██ ██  ██  ██",
+  --       "    ██   ████   ████   ██ ██      ██",
+  --       " ",
+  --       "          Welcome Back, Jose        ",
+  --     }
+  --     return opts
+  --   end,
+  -- },
   -- You can disable default plugins as follows:
   -- { "max397574/better-escape.nvim", enabled = false },
   --
