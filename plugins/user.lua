@@ -10,4 +10,17 @@ return {
   --   end,
   -- },
   -- Lua
+  {
+    "xiyaowong/transparent.nvim",
+    lazy = false,
+    config = function ()
+      require("transparent").setup({
+        extra_groups = {
+          "NeoTreeNormal",
+          "NeoTreeNormalNC"
+        }, -- table: additional groups that should be cleared
+        exclude_groups = {}, -- table: groups you don't want to clear
+      })
+    end
+  }
 }
